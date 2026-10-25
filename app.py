@@ -1,6 +1,6 @@
 from openai import OpenAI
 import streamlit as st
-from streamlit-js-eval import streamlit_js_eval
+from streamlit_js_eval import streamlit_js_eval
 
 st.set_page_config(page_title="OpenAI API Example", page_icon=':material/chat:')
 st.title("ChatBOT with OpenAI API")
